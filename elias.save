@@ -1,0 +1,53 @@
+#!/bin/bash
+#calculadora shell
+echo ""
+echo "::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+echo "               PROGRAMADO POR ELIAS1829"
+echo "::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+echo ":::::::::::::: [INFO DE LA PROGRAMACION] :::::::::::::"
+echo ":      Q ES LA PROGRAMASION  Y SUS TIPOS DE LENGUAJES:"
+echo "::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+echo ""
+echo "           [ ELIGA UNA OBCION ]            "
+echo
+echo ""
+echo " [ 1 ] QUE ES LA PROGRAMACION CON BASH "
+echo " [ 2 ] QUE ES LA PROGRAMACION CON PYTHON"
+echo " [ 3 ] QUE ES LA PROGRAMACION CON JABA SCRIPT"
+echo " [ 4 ] QUE ES LA PROGRAMACION CON C++"
+echo " [ 5 ] QUE ES LA PROGRAMACION "
+echo " [ 6 ] QUE ES LA PROGRQ.ACION CON C."
+echo "" 
+echo " [ 99 ] SALIR DEL PROGRAMA"
+echo
+
+OPC=6
+
+echo ""
+read -p  "DIGITE UN NUMERO DEL 1 A 5: " OPC
+echo ""
+
+if           [ $OPC -gt 7 ]; then
+             echo "::::::::::::ERROR DIGITE DE NUEVO:::::::::::"
+             echo ""
+
+elif         [ $OPC -eq 1 ]; then
+             echo "Bash es un procesador de comandos que generalmente se ejecuta en una ventana de texto donde el usuario escribe comandos que causan acciones. Bash también puede leer y ejecutar comandos desde un archivo, llamado script de shell." 
+elif
+             [ $OPC -eq 2 ]; then
+             echo "Python es un lenguaje sencillo de leer y escribir debido a su alta similitud con el lenguaje humano. Además, se trata de un lenguaje multiplataforma de código abierto y, por lo tanto, gratuito, lo que permite desarrollar software sin límites"
+elif
+             [ $OPC -eq 3 ]; then
+             echo "JavaScript (JS) es un lenguaje de programación ligero, interpretado, o compilado justo-a-tiempo (just-in-time) con funciones de primera clase. Si bien es más conocido como un lenguaje de scripting (secuencias de comandos) para páginas web, y es usado en muchos entornos fuera del navegador, tal como Node."
+elif
+             [ $OPC -eq 4 ]; then
+             echo "C++? Es un Lenguaje de programación versátil, creado por Bjarne Stroustrup en 1979. Forma parte de las ciencias de la computación que están orientadas a la manipulación de objetos (conocido como POO, Programa Orientado a Objetos), y parte de la base del código C."
+elif
+             [ $OPC -eq 5 ]; then
+             echo " La programación informática es el arte del proceso por el cual se limpia, codifica, traza y protege el código fuente de programas computacionales, en otras palabras, es indicarle a la computadora lo que tiene que hacer "
+elif         [ $OPC -eq 6 ]; then
+             echo " C es un lenguaje de programación de propósito general​ originalmente desarrollado por Dennis Ritchie entre 1969 y 1972 en los Laboratorios Bell, ​ como evolución del anterior lenguaje B, a su vez basado en BCPL.​​​Al igual que B, es un lenguaje orientado a la implementación de sistemas operativos, concretamente Unix."
+elif         [ $OPC -eq 99 ]; then
+             exit
+             echo "ponte a Estudiar sonso"
+fi 
